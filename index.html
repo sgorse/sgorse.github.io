@@ -1,38 +1,67 @@
 
 <!doctype html>
 <html>
-	<header>
-		<h1>JavaScript Events</h1>
-	</header>
-	<head>
-		<style type="text/css">
-			li input {
-				display: none;
-			}
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+</head>
+<header>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Sansita" />
+  <div class="topnav" id="myTopnav">
+    <a href="#pageOne">Home</a>
+    <a href="#pageTwo">Introduction</a>
+    <a href="#pageThree">Resume</a>
+    <a href="#pageFour">Projects</a>
+  </div>
+</header>
+<div id="pageOne">
+  <div class="text-center">
+    <h1 id="name">Shirdon Gorse</h1>
+    <h3>Software Developer</h3>
+    <div class="btnList">
+      <a class="btn btn-default" href="#">Email</a>
+      <a class="btn btn-default" href="#">LinkedIn</a>
+      <a class="btn btn-default" href="#">GitHub</a>
+      <a class="btn btn-default" href="#">Resume</a>
+    </div>
+  </div>
+</div>
+<div id="pageTwo">
+  <h1 class="block text-center sansita" >Introduction</h1>
+  <hr class="block text-center whitehr">
+  <p class="intro">I recently graduated from the University of Minnesota Twin-Cities with a Bachelors in Computer Engineering. I am now a student at the University of Illinois Urbana-Champaign, pursuing an MS in Computer Science, and I expect to graduate in May 2019. I would consider myself a problem solver, and this means I try to find creative and simple solutions for interesting problems. Lately, the problems I have been working on are solved through software design and development, which is what I consider to be the modern problem solvers most powerful tool.</p>
+</div>
+<div id="pageThree">
+  <h1 class="block text-center sansita">Resume</h1>
+  <hr class="block text-center redhr">
+  
+  <h2 class="ResSubtitle">Education</h2>
+  
+  <h3 class="SchoolName"><a href="http://illinois.edu/">University of Illinois,  Urbana Champaign</a></h3>
+  <h4 class="Degree">M.S. Computer Science 2017 - Present</h4>
+  
+  <h3 class="SchoolName"><a href="https://twin-cities.umn.edu/">University of Minnesota, Twin Cities</a></h3>
+  <h4 class="Degree">B.Eng. Computer Engineering 2014 - 2017</h4>
+  
+  <h2 class="ResSubtitle">Work Experience</h2>
+  
+  <h3 class="CompanyName"><a href="https://www.optum.com/">Optum</a></h3>
+  <h4 class="WorkTitle">Infrastructure Automation Intern - Summer 2017</h4>
+  <div class="Description"><b>Description:</b> I automated parts of the infrastructure delivery process for Optum's System Engineers, saving engineers several work hours.</div>
+  <div class="TechUsed"><b>Tools Used:</b> C#, Python, Ruby, Chef, Terraform, vRealize Automation, JSON, Agile, Git, Github</div>
+  
+  <h3 class="CompanyName"><a href="http://www.raytheon.com/ourcompany/bbn/">Raytheon BBN Technologies</a></h3>
+  <h4 class="WorkTitle">Software RF Intern - Summer 2016</h4>
+  <div class="Description"><b>Description:</b> I worked on several different aspects of a DARPA funded project, <a href="http://www.darpa.mil/program/spatial-temporal-and-orientation-information-in-contested-environments">STOIC</a>. Some of my tasks included software development, software testing, and networking.</div>
+  <div class="TechUsed"><b>Tools Used:</b> Python, Bash Scripting, Xilinx Vivado, PostgreSQL, Git</div>
+  
+  <h3 class="CompanyName"><a href="http://www.imagesensing.com/">Image Sensing Systems</a></h3>
+  <h4 class="WorkTitle">QA Intern - 2015-2016</h4>
+  <div class="Description"><b>Description:</b> I helped run several types of tests for a variety of projects dealing with traffic based devices and software.</div>
+  <div class="TechUsed"><b>Tools Used:</b> Python</div>
+  
+</div>
 
-			li.edit span {
-				display: none;
-			}
-
-			li.edit input {
-				display: initial;
-			}
-		</style>
-	</head>
-	<body>
-		<ul>
-			<li>
-				<span>Apple</span>
-				<input value="Apples"/>
-			</li>
-			<li>
-				<span>Oranges</span>
-				<input value="Oranges"/>
-			</li>
-			<li>
-				<span>Bananas</span>
-				<input value="Bananas"/>
-			</li>
-		</ul>
-	</body>
+<div id="pageFour"></div>
 </html>
